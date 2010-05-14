@@ -1,0 +1,24 @@
+<plugin name='junit-web-runner' version='0.2.0' grailsVersion='1.2.2 &gt; *'>
+  <author>Lim Chee Kin</author>
+  <authorEmail>limcheekin@vobject.com</authorEmail>
+  <title>Grails JUnit Web Runner Plugin</title>
+  <description>\
+	Grails JUnit Web Runner Plugin is created based on Kotori Web JUnit Runner project
+	(http://code.google.com/p/kotori/) which is a JUnit Runner GWT application that 
+	helps to run in-container test cases on grails application. Test cases execution in
+	Google App Engine(GAE) Development or Production Server is supported. 
+	</description>
+  <documentation>http://grails.org/plugin/junit-web-runner</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+  </resources>
+  <dependencies>
+    <plugin name='appEngine' version='0.8.8 &gt; *' />
+    <resolvers>
+      <resolver type='grailsPlugins' name='grailsPlugins' />
+    </resolvers>
+  </dependencies>
+  <behavior />
+</plugin>
