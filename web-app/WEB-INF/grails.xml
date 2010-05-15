@@ -10,6 +10,7 @@
   </resources>
   <plugins>
     <plugin>AppEngineGrailsPlugin</plugin>
+    <plugin>EasybGrailsPlugin</plugin>
     <plugin>GormJpaGrailsPlugin</plugin>
     <plugin>JunitWebRunnerGrailsPlugin</plugin>
   </plugins>
