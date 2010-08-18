@@ -34,6 +34,18 @@
         </init-param>
     </filter>
 
+		<filter>
+		    <filter-name>openEntityManagerInViewFilter</filter-name>
+		    <filter-class>
+		        org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter
+		    </filter-class>
+		</filter>
+		
+		<filter-mapping>
+		    <filter-name>openEntityManagerInViewFilter</filter-name>
+		    <url-pattern>/ktrwjr/ktrwjr/ktrwjr.s3gwt</url-pattern>
+		</filter-mapping>
+
     <filter-mapping>
         <filter-name>charEncodingFilter</filter-name>
         <url-pattern>/*</url-pattern>

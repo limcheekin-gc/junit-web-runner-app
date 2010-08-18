@@ -1,17 +1,20 @@
 <grails>
   <resources>
     <resource>org.grails.appengine.AppEngineReloadController</resource>
-    <resource>BootStrap</resource>
-    <resource>BuildConfig</resource>
-    <resource>Config</resource>
     <resource>DataSource</resource>
-    <resource>resources</resource>
+    <resource>BuildConfig</resource>
+    <resource>BootStrap</resource>
+    <resource>Config</resource>
     <resource>UrlMappings</resource>
+    <resource>resources</resource>
+    <resource>com.vobject.appengine.gorm.Role</resource>
+    <resource>com.vobject.appengine.gorm.User</resource>
+    <resource>com.vobject.appengine.gorm.Permission</resource>
   </resources>
   <plugins>
-    <plugin>AppEngineGrailsPlugin</plugin>
-    <plugin>EasybGrailsPlugin</plugin>
-    <plugin>GormJpaGrailsPlugin</plugin>
     <plugin>JunitWebRunnerGrailsPlugin</plugin>
+    <plugin>GormJpaGrailsPlugin</plugin>
+    <plugin>AppengineGormGrailsPlugin</plugin>
+    <plugin>AppEngineGrailsPlugin</plugin>
   </plugins>
 </grails>

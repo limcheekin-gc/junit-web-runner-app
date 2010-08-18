@@ -1,0 +1,23 @@
+<plugin name='appengine-gorm' version='0.1.0' grailsVersion='1.1.1 &gt; *'>
+  <author>Lim Chee Kin</author>
+  <authorEmail>limcheekin@vobject.com</authorEmail>
+  <title>Batch insert, update and delete operation support in Google App Engine</title>
+  <description>\
+    The App Engine GORM plugin work with App Engine Plugin and GORM JPA plugin 
+    to allow Grails application running in Google App Engine(GAE) perform 
+    batch insert, update and delete operation. Given request time limit
+    (30 seconds approximately) from GAE, support of these batch operations is critical 
+    for any serious Grails application running in GAE such as application that 
+    required massive data input from complex form, import data by file upload and 
+    bulk loading data to data store(BigTable). 
+    </description>
+  <documentation>http://grails.org/GormAppengine+Plugin</documentation>
+  <resources>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+  </resources>
+  <dependencies>
+    <plugin name='appEngine' version='0.8.5 &gt; *' />
+    <plugin name='gormJpa' version='0.5 &gt; *' />
+  </dependencies>
+</plugin>

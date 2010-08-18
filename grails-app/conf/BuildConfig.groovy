@@ -29,3 +29,6 @@ grails.project.dependency.resolution = {
     }
 
 }
+
+google.appengine.sdk="/opt/dev/lib/appengine-java-sdk/1.3.6"
+// grails.plugin.location.pluginName="../pluginName"
