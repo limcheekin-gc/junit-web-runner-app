@@ -1,0 +1,1 @@
+JUnit Web Runner Demo Application demonstrates how to use Grails JUnit Web Runner Plugin (http://code.google.com/p/junit-web-runner/) and TDD practice for GAE.
